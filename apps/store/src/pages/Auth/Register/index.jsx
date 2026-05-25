@@ -10,7 +10,7 @@ import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { useRegisterMutation } from '../../../store/api/authApi';
 import { useSeedOrdersMutation } from '../../../store/api/ordersApi';
 import { loginSuccess } from '../../../store/slices/authSlice';
-import { ROUTE_CONST } from '../../../routes/routeConstant';
+import { ROUTE_CONST } from '../../../routes/RouteConstant';
 
 const RegisterSchema = Yup.object().shape({
     name: Yup.string()

@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 import { HiOutlineEye, HiOutlineEyeOff } from 'react-icons/hi';
 import { LuSparkles } from 'react-icons/lu';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
-import { ROUTE_CONST } from '../../../routes/routeConstant';
+import { ROUTE_CONST } from '../../../routes/RouteConstant';
 import { useLoginMutation } from '../../../store/api/authApi';
 import { loginSuccess } from '../../../store/slices/authSlice';
 
