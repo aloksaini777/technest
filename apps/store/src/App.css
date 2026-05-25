@@ -1,0 +1,20 @@
+html, body {
+    background-color: rgb(var(--body));
+    min-height: 100%;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ------------------------------ HIDE SCROLLBAR ------------------------------ */
+.custom-scroll-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.custom-scroll-hide::-webkit-scrollbar {
+    display: none;
+}
