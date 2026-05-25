@@ -10,6 +10,8 @@ const allowedOrigins = [
   process.env.CLIENT_URL,
   "http://localhost:5173",
   "http://localhost:5174",
+  "https://technest-store-two.vercel.app",
+  "https://project-9s53t.vercel.app"
 ].filter(Boolean);
 
 app.use(cors({ origin: allowedOrigins }));
