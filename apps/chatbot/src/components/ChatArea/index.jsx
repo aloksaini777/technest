@@ -119,8 +119,6 @@ const ChatArea = ({ onClose, setPreviewImage }) => {
 
 
   const renderContent = (msg) => {
-    console.log('message: ', msg);
-    console.log('isOrderCard: ', isOrderCard(msg?.text));
 
     // Thinking bubble
     if (msg.isThinking) {
