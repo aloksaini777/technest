@@ -11,7 +11,7 @@ export default defineConfig({
     federation({
       name: 'host_app',
       remotes: {
-        chat_remote_app: 'https://technest-chatbot-p3crhu0qc-alok-saini-s-projects.vercel.app/assets/remoteEntry.js',
+        chat_remote_app: 'https://technest-chatbot-r9hfx2olb-alok-saini-s-projects.vercel.app/assets/remoteEntry.js',
       },
       shared: {
         react: { singleton: true, requiredVersion: false },
